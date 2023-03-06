@@ -30,9 +30,7 @@ In the bottom of the front page logged in users can see "create your own blog" l
 
 This project has helped me learn a lot about web development as a whole. I would like every musician to use this webapp test it. It was very hard and exciting. Also, this project is my own idea. I hope in future I can learn more and more and improve my skills for better. So yeah! this is ***Musicians Paradise***.
 
-Website Link: https://aprodev2011.pythonanywhere.com/
-
 
 **Updates**
 
-Amazon AWS has suspended my account so now the media files are stored in *Google Cloud Storage Bucket*. So yes it's not Amazon S3 anymore it's Google Cloud Storage.
+Amazon AWS has suspended my account so now the media files are stored in *Google Cloud Storage Bucket*. So yes it's not Amazon S3 anymore it's Google Cloud Storage. Now Google Cloud Free trail is also ended, so files are uploaded locally.
