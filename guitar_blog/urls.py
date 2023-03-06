@@ -1,6 +1,6 @@
 from django.urls import path
-
-
+from mysite import settings
+from django.conf.urls.static import static
 from .views import *
 
 
@@ -13,3 +13,6 @@ urlpatterns = [
     path('guitar_blog/create_musician/', MusicianCreationView.as_view(), name="create_musician"),
     path('likes/', post_likes, name="post_likes"),
 ]
+
+if settings.DEBUG:
+    urlpatterns += static(settings.MEDIA_URL, document_root = settings.MEDIA_ROOT)
